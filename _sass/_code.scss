@@ -1,0 +1,40 @@
+/*
+ * Code
+ */
+
+code {
+  padding: 2px 4px;
+  font-size: 85%;
+  color: #d44950;
+  background-color: #f7f7f9;
+  border-radius: .2rem;
+}
+
+pre {
+  display: block;
+  margin: 0 0 1rem;
+  line-height: 1.4;
+  white-space: pre;
+  white-space: pre-wrap;
+
+  code {
+    padding: 0;
+    color: inherit;
+    background-color: transparent;
+    border: 0;
+  }
+}
+
+.highlight {
+  margin: 0;
+
+  pre {
+    margin-bottom: 0;
+    background: transparent;
+    border: none;
+  }
+
+  &+ .highlight {
+    margin-top: 1rem;
+  }
+}

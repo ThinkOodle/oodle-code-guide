@@ -1,0 +1,23 @@
+/*
+ * Sections
+ */
+
+.heading {
+  padding: 2rem 1rem 1.5rem;
+  background-color: #dfe1e8;
+
+
+  @media (min-width: 38em) {
+    padding: 3rem 3rem 2.5rem;
+  }
+}
+
+.section {
+  border-bottom: 1px solid #dfe1e8;
+
+  @media (min-width: 48em) {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+}

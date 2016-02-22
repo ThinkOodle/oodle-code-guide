@@ -1,0 +1,41 @@
+/**
+ * Site header
+ */
+.masthead {
+  padding: 3rem 1rem;
+  color: #fff;
+  text-align: center;
+  background-color: $oodle-pink;
+
+  @media(max-width: 38em) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  h1 {
+    font-family: $headline-font-family;
+    color: #fff;
+    margin-bottom: .25rem;
+  }
+
+  .fa, 
+  .icon {
+    display: inline-block;
+    font-size: 3rem;
+    margin: 0 .5rem;
+  }
+
+  .masthead-links {
+    font-size: 2rem;
+
+    a {
+      color: rgba(255,255,255,.5);
+      text-decoration: none;
+      transition: all .15s linear;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}

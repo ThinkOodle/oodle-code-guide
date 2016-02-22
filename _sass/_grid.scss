@@ -1,0 +1,32 @@
+/*
+ * The Grid
+ */
+
+.col {
+  padding: 2rem 1rem;
+
+  @media (min-width: 38em) {
+    padding: 2rem;
+    display: table-cell;
+    padding: 3rem;
+    vertical-align: top;
+  }
+
+  p {
+    max-width: 40rem;
+  }
+
+  &+ .col {
+    border-top: 1px solid #dfe1e8;
+    background-color: #f7f7f9;
+
+    @media (min-width: 48em) {
+      border-top: 0;
+    }
+  }
+}
+
+/* Make the ToC a whole section */
+.toc .col + .col {
+  background-color: #fff;
+}

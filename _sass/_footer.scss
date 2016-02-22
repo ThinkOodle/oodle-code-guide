@@ -1,0 +1,19 @@
+/**
+ * Site footer
+ */
+
+footer.footer {
+  background: $oodle-green;
+  color: #fff;
+  padding: 2rem 0;
+
+  p {
+    margin: 0;
+    text-align: center;
+
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
+  }
+}
