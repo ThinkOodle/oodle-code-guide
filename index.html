@@ -11,6 +11,7 @@ layout: default
     <h4><a href="#basics">Basics</a></h4>
     <ul>
       <li><a href="#editor-config">EditorConfig</a></li>
+      <li><a href="#gitignore">Gitignore</a></li>
     </ul>
   </div>
   <div class="col">
@@ -71,6 +72,16 @@ layout: default
   </div>
   <div class="col">
     {% highlight text %}{% include basics/editor-config.txt %}{% endhighlight %}
+  </div>
+</div>
+
+<div class="section" id="gitignore">
+  <div class="col">
+    <h3>Gitignore</h3>
+    <p>Ignore system and editor-generated files in a project, ideally before the initial commit. If already committed, use <code>git rm .whatever</code> to remove files from the repo. Consider adding files to <code>.gitignore_global</code> if they are generated frequently, like <code>.DS_Store</code> for example.</p>
+  </div>
+  <div class="col">
+    {%highlight text %}{% include basics/gitignore.txt %}{% endhighlight %}
   </div>
 </div>
 
@@ -415,19 +426,5 @@ layout: default
   </div>
   <div class="col">
     {% highlight css %}{% include css/organization-comments.css %}{% endhighlight %}
-  </div>
-</div>
-
-<div class="section" id="css-editor-prefs">
-  <div class="col">
-    <h3>Editor preferences</h3>
-    <p>Set your editor to the following settings to avoid common code inconsistencies and dirty diffs:</p>
-    <ul>
-      <li>Use soft-tabs set to two spaces.</li>
-      <li>Trim trailing white space on save.</li>
-      <li>Set encoding to UTF-8.</li>
-      <li>Add new line at end of files.</li>
-    </ul>
-    <p>Consider documenting and applying these preferences to your project's <code>.editorconfig</code> file. For an example, see <a href="https://github.com/twbs/bootstrap/blob/master/.editorconfig">the one in Bootstrap</a>. Learn more <a href="http://editorconfig.org">about EditorConfig</a>.</p>
   </div>
 </div>
