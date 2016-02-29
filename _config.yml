@@ -8,8 +8,8 @@
 # Site settings
 title: Oodle Style Guide
 description: Standards for keeping you sane.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/oodle-code-guide" # the subpath of your site, e.g. /blog
+url: "http://thinkoodle.github.io" # the base hostname & protocol for your site
 twitter_username: ThinkOodle
 github_username:  ThinkOodle
 
