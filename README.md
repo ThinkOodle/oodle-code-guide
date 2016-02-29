@@ -1,7 +1,5 @@
 # Oodle Style Guide
 
-## Overview
-
 A summary of code standards and styles for use internally at Oodle.
 
 ## Requirements
