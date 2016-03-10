@@ -78,7 +78,7 @@ layout: default
 <div class="section" id="gitignore">
   <div class="col">
     <h3>Gitignore</h3>
-    <p>Ignore system and editor-generated files in a project, ideally before the initial commit. If already committed, use <code>git rm .whatever</code> to remove files from the repo. Consider adding files to <code>.gitignore_global</code> if they are generated frequently, like <code>.DS_Store</code> for example.</p>
+    <p>Ignore system and editor-generated files in a project, ideally before the initial commit. If already committed, use <code>git rm --cached .whatever</code> to remove files from the repo. Consider adding files to <code>.gitignore_global</code> if they are generated frequently, like <code>.DS_Store</code> for example.</p>
   </div>
   <div class="col">
     {%highlight text %}{% include basics/gitignore.txt %}{% endhighlight %}
